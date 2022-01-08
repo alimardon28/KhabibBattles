@@ -65,3 +65,7 @@ body{
 .alert{
     text-shadow: 0 0 20px #fff, 0 0 20px #fFF ;
 }
+
+img{
+    max-width: 590px !important;
+}
