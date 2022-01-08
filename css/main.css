@@ -16,7 +16,7 @@ body{
 
 .movies__card {
     width: 19rem;
-    text-shadow: 0 0 20px #fff, 0 0 20px #00FF;
+    text-shadow: 0 0 20px #fff, 0 0 20px #fFF;
 }
 
 .heading{
