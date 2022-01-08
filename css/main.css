@@ -16,7 +16,7 @@ body{
 
 .movies__card {
     width: 19rem;
-    text-shadow: 0px 0px 20px ;
+    text-shadow: 0 0 20px #fff, 0 0 20px #00FF;
 }
 
 .heading{
@@ -29,4 +29,8 @@ body{
 
 .card-img-top{
     min-height: 290px !important;
+}
+
+.link{
+    text-shadow: 0 0 20px #00ff, 0 0 20px #00FF;
 }
