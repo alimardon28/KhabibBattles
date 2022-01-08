@@ -1,36 +1,6 @@
-/* img{
-    vertical-align: middle;
+body{
+    background-color: #000;
 }
-.box{
-    justify-content: space-between;
-}
-.kards{
-    width: 400px !important;
-}
-
-.star{
-    align-items: center;
-}
-
-.img{
-    height: 220px !important;
-}
-
-.btn{
-    margin-right: 11px !important;
-}
-.imgcalendar{
-    border-radius: 10px;
-    margin-right: 5px;
-}
-
-.star-img{
-    margin-right:10px;
-}
-
-.desc{
-    font-weight: 600;
-} */
 
 .movies__list {
     margin: 0;
@@ -45,5 +15,18 @@
 }
 
 .movies__card {
-    width: 18rem;
+    width: 19rem;
+   
+}
+
+.heading{
+    text-shadow: 0px 0px 10px;
+}
+
+.search{
+    text-shadow: 0px 0px 10px;
+}
+
+.card-img-top{
+    min-height: 290px !important;
 }

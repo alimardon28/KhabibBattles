@@ -19,7 +19,7 @@ for(let movie of movies){
 
     // SET ATRIBUT
     newItem.setAttribute('class', 'movies__item mb-3');
-    newCard.setAttribute('class', 'card movies__card');
+    newCard.setAttribute('class', 'card movies__card bg-dark text-light');
     newImg.setAttribute('class', 'card-img-top');
     newImg.setAttribute('src', movie.smallThumbnail);
     newCardBody.setAttribute('class', 'card-body');

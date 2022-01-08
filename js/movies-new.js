@@ -102,7 +102,7 @@ let movies = [
     "bigThumbnail": "http://i3.ytimg.com/vi/H8oSvldAGfg/maxresdefault.jpg"
   },
   {
-    "title": "Khabib vs Iaquinta UFC223 Title Fight",
+    "title": "Khabib vs Iaquinta UFC223",
     "year": 2018,
     "categories": [
       "Adventure",
@@ -121,7 +121,7 @@ let movies = [
     "bigThumbnail": "http://i3.ytimg.com/vi/7Pa_Weidt08/maxresdefault.jpg"
   },
   {
-    "title": "Khabib Nurmagomedov VS Michael Johnson.  UFC 205.",
+    "title": "Khabib Nurmagomedov VS Michael Johnson.UFC 205.",
     "year": 2021,
     "categories": [
       "Uncategorized"
@@ -183,7 +183,7 @@ let movies = [
     "bigThumbnail": "http://i3.ytimg.com/vi/3vqcMr1q5Uc/maxresdefault.jpg"
   },
   {
-    "title": "UFC 271: KHABIB NURMAGOMEDOV vs GEORGES ST-PIERRE full fight Khabib Nurmagomedov vs George St. Pierre",
+    "title": "UFC 271: KHABIB NURMAGOMEDOV vs GEORGES ST-PIERRE. Pierre",
     "year": 2022,
     "categories": [
       "Comedy",
@@ -199,7 +199,7 @@ let movies = [
     "bigThumbnail": "http://i3.ytimg.com/vi/kYYINJM3lPA/maxresdefault.jpg"
   },
   {
-    "title": "UFC 271: KHABIB NURMAGOMEDOV vs GEORGES ST-PIERRE full fight",
+    "title": "UFC 271: KHABIB NURMAGOMEDOV vs GEORGES ST-PIERRE ",
     "year": 2021,
     "categories": [
       "Documentary"
@@ -214,7 +214,7 @@ let movies = [
     "bigThumbnail": "http://i3.ytimg.com/vi/hpyxmT6KSvw/maxresdefault.jpg"
   },
   {
-    "title": "UFC 255: Khabib Nurmagomedov vs Israel Adesanya full fight",
+    "title": "UFC 255: Khabib Nurmagomedov vs Israel Adesanya",
     "year": 2015,
     "categories": [
       "Family"
@@ -229,7 +229,7 @@ let movies = [
     "bigThumbnail": "http://i3.ytimg.com/vi/eMVw1pHVMAw/maxresdefault.jpg"
   },
   {
-    "title": "Xabibning birinchi jangi | The first battle of Khabib | Khabib's first battle UFC",
+    "title": "Khabib's first battle UFC",
     "year": 2000,
     "categories": [
       "Comedy",
@@ -245,7 +245,7 @@ let movies = [
     "bigThumbnail": "http://i3.ytimg.com/vi/cA6BUYVkQoE/maxresdefault.jpg"
   },
   {
-    "title": "Khabib Nurmagomedov's only defeat in 2008 | Xabib Nurmagomedovni mag'lubiyati",
+    "title": " Xabib Nurmagomedovni mag'lubiyati",
     "year": 2008,
     "categories": [
       "Action",
