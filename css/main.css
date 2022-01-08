@@ -42,6 +42,11 @@ body{
     padding: 20px 0px;
 }
 
+.main__hero-top{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .link{
     text-shadow: 0 0 20px #00ff, 0 0 20px #00FF;
 }
