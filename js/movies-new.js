@@ -260,398 +260,233 @@ let movies = [
     "smallThumbnail": "https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/dataimagepngbase64iVBORw0KGgoAAAANSUhEUgAABO4AAAKU-2f74d6720a2828839161b97f9bdf8a16.jpg",
     "bigThumbnail": "http://i3.ytimg.com/vi/EPZZvk-wbGE/maxresdefault.jpg"
   },
-  // {
-  //   "title": "Wildling",
-  //   "year": 2018,
-  //   "categories": [
-  //     "Fantasy",
-  //     "Horror"
-  //   ],
-  //   "imdbId": "tt5085924",
-  //   "imdbRating": 6.1,
-  //   "runtime": 92,
-  //   "language": "English",
-  //   "youtubeId": "eyl1Wf90AgY",
-  //   "summary": "Anna spends her entire childhood under the care of a mysterious man she only knows as Daddy. He keeps her locked in an attic making her fear the Wildling, a child-eating monster that roams the outside. At age 16, Anna is freed by small-town sheriff Ellen Cooper who helps her start a new life as a normal teenager. But as Anna's body begins to blossom, her childhood nightmares return with a vengeance, leading to the conclusion of a terrifying secret.",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/eyl1Wf90AgY/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/eyl1Wf90AgY/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "The Humanity Bureau",
-  //   "year": 2017,
-  //   "categories": [
-  //     "Action",
-  //     "Sci-Fi"
-  //   ],
-  //   "imdbId": "tt6143568",
-  //   "imdbRating": 6.1,
-  //   "runtime": 95,
-  //   "language": "English",
-  //   "youtubeId": "kUH8JGhRzPY",
-  //   "summary": "A dystopian thriller set in the year 2030 that sees the world in a permanent state of economic recession and facing serious environmental problems as a result of global warming.",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/kUH8JGhRzPY/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/kUH8JGhRzPY/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "Farewell Ferris Wheel",
-  //   "year": 2016,
-  //   "categories": [
-  //     "Documentary",
-  //     "Drama",
-  //     "News"
-  //   ],
-  //   "imdbId": "tt2349677",
-  //   "imdbRating": 7.4,
-  //   "runtime": 72,
-  //   "language": "English",
-  //   "youtubeId": "-K2m6AKNB-g",
-  //   "summary": "Farewell, Ferris Wheel examines the link between America's carnival industry and a small Mexican town that legally provides one third of the carnival's labor. However, increased regulations are compromising this longstanding connection, putting both the industry and its workers in jeopardy.",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/-K2m6AKNB-g/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/-K2m6AKNB-g/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "Don't Talk to Irene",
-  //   "year": 2017,
-  //   "categories": [
-  //     "Comedy"
-  //   ],
-  //   "imdbId": "tt5030452",
-  //   "imdbRating": 6.4,
-  //   "runtime": 90,
-  //   "language": "English",
-  //   "youtubeId": "lK48UxWuUho",
-  //   "summary": "Irene must endure 2 weeks of community service at a retirement home. Following her passion for cheerleading, she secretly signs up the senior residents to audition for a dance-themed reality show to prove that you don't need to be physically \"perfect\" to be perfectly AWESOME.",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/lK48UxWuUho/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/lK48UxWuUho/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "Blood Road",
-  //   "year": 2017,
-  //   "categories": [
-  //     "Documentary",
-  //     "History",
-  //     "Sport"
-  //   ],
-  //   "imdbId": "tt6900092",
-  //   "imdbRating": 6.9,
-  //   "runtime": 96,
-  //   "language": "English",
-  //   "youtubeId": "XCzVqiN950M",
-  //   "summary": "The mysteries surrounding her father's death in the Vietnam war lead ultra-endurance mountain biker Rebecca Rusch on an emotional journey as she pedals 1200 miles of the Ho Chi Minh trail.",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/XCzVqiN950M/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/XCzVqiN950M/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "Andre the Giant",
-  //   "year": 2018,
-  //   "categories": [
-  //     "Documentary"
-  //   ],
-  //   "imdbId": "tt6543420",
-  //   "imdbRating": 8.2,
-  //   "runtime": 85,
-  //   "language": "English",
-  //   "youtubeId": "f_jTeuajas0",
-  //   "summary": "A look at the life and career of professional wrestler André Roussimoff, who gained notoriety in the 1980s as Andre the Giant.",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/f_jTeuajas0/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/f_jTeuajas0/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "Dead on Arrival",
-  //   "year": 2017,
-  //   "categories": [
-  //     "Thriller"
-  //   ],
-  //   "imdbId": "tt5903088",
-  //   "imdbRating": 6.9,
-  //   "runtime": 97,
-  //   "language": "English",
-  //   "youtubeId": "8jJ-kC-rq0Q",
-  //   "summary": "A pharmaceutical sales rep visits a small town in Louisiana on business. He finds himself in a dark world of corruption and murder with 24 hours to live, running from the police, the mob and a sheriff that wants him dead.",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/8jJ-kC-rq0Q/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/8jJ-kC-rq0Q/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "Big Time",
-  //   "year": 2017,
-  //   "categories": [
-  //     "Documentary"
-  //   ],
-  //   "imdbId": "tt7630164",
-  //   "imdbRating": 6.2,
-  //   "runtime": 93,
-  //   "language": "English",
-  //   "youtubeId": "VK0mGdMKMW4",
-  //   "summary": "Bjarke Ingels started out as a young man dreaming of creating cartoons. Now, he has been named \"one of architecture's biggest innovators\" by The Wall Street Journal and one of The 100 Most Influential People on the planet by TIME Magazine. BIG TIME follows Bjarke during the course of 7 years (2009-2016), while he struggles to finish his biggest project so far. We are let into Bjarke's creative processes as well as the endless compromises that his work entails, and we are on the side when his personal life starts putting pressure on him, too. In addition to the recently opened architectural marvel VIA 57 West (625 West 57th Street), Bjarke Ingels' company Bjarke Ingels Group (BIG) was given the task of designing and building one of the skyscrapers which will replace Two World Trade Center in Manhattan. While Bjarke is creating these buildings, which will change the New York skyline, he is hit by health-related issues. The Film offers an intimate look into the innovative and ambitious ...",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/VK0mGdMKMW4/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/VK0mGdMKMW4/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "Adventures in Babysitting",
-  //   "year": 2016,
-  //   "categories": [
-  //     "Adventure",
-  //     "Comedy",
-  //     "Family"
-  //   ],
-  //   "imdbId": "tt4456850",
-  //   "imdbRating": 6.1,
-  //   "runtime": 105,
-  //   "language": "English",
-  //   "youtubeId": "BbTTXUMVTTU",
-  //   "summary": "Two teen rival babysitters, Jenny and Lola, team up to hunt down one of their kids who accidentally runs away into the big city without any supervision.",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/BbTTXUMVTTU/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/BbTTXUMVTTU/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "Banana in a Nutshell",
-  //   "year": 2005,
-  //   "categories": [
-  //     "Documentary"
-  //   ],
-  //   "imdbId": "tt1537196",
-  //   "imdbRating": 6.6,
-  //   "runtime": 0,
-  //   "language": "English",
-  //   "youtubeId": "6vgD78Z6ut4",
-  //   "summary": "An intimate portrait of a Chinese-European couple in New Zealand, and their journey to get a blessing for marriage from traditional Chinese parents.",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/6vgD78Z6ut4/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/6vgD78Z6ut4/maxresdefault.jpg"
-  // },
 
-  // {
-  //   "title": "Ichi the Killer",
-  //   "year": 2001,
-  //   "categories": [
-  //     "Action",
-  //     "Comedy",
-  //     "Crime",
-  //     "Drama",
-  //     "Horror"
-  //   ],
-  //   "imdbId": "tt0296042",
-  //   "imdbRating": 7.1,
-  //   "runtime": 129,
-  //   "language": "English",
-  //   "youtubeId": "iFUMtrAMknE",
-  //   "summary": "When a Yakuza boss named Anjo disappears with 300 million yen, his chief henchman, a sadomasochistic man named Kakihara, and the rest of his mob goons go looking for him. After capturing and torturing a rival Yakuza member looking for answers, they soon realize they have the wrong man and begin looking for the man named Jijii who tipped them off in the first place. Soon enough Kakihara and his men encounter Ichi, a psychotic, sexually-repressed young man with amazing martial arts abilities and blades that come out of his shoes. One by one Ichi takes out members of the Yakuza and all the while Kakihara intensifies his pursuit of Ichi and Ichi's controller Jijii. What will happen as the final showdown happens between the tortured and ultra-violent Ichi and the pain-craving Kakihara?",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/iFUMtrAMknE/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/iFUMtrAMknE/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "The Boy with the Topknot",
-  //   "year": 2017,
-  //   "categories": [
-  //     "Drama"
-  //   ],
-  //   "imdbId": "tt5757738",
-  //   "imdbRating": 6.7,
-  //   "runtime": 90,
-  //   "language": "English",
-  //   "youtubeId": "RLEnTBG7ncQ",
-  //   "summary": "One-off drama based on the critically acclaimed memoirs of British journalist Sathnam Sanghera. A touching, humorous and emotional rites-of-passage story.",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/RLEnTBG7ncQ/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/RLEnTBG7ncQ/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "Small Town Crime",
-  //   "year": 2017,
-  //   "categories": [
-  //     "Crime",
-  //     "Mystery",
-  //     "Thriller"
-  //   ],
-  //   "imdbId": "tt5751998",
-  //   "imdbRating": 6.6,
-  //   "runtime": 91,
-  //   "language": "English",
-  //   "youtubeId": "WakqZghIX_g",
-  //   "summary": "An alcoholic ex-cop (Hawkes) finds the body of a young woman and, through an act of self-redemption, becomes hell-bent on finding the killer but unwittingly puts his family in danger and gets caught up with several dark characters along the way.",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/WakqZghIX_g/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/WakqZghIX_g/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "Control",
-  //   "year": 2017,
-  //   "categories": [
-  //     "Action",
-  //     "Crime",
-  //     "Drama",
-  //     "Thriller"
-  //   ],
-  //   "imdbId": "tt1727497",
-  //   "imdbRating": 6.3,
-  //   "runtime": 127,
-  //   "language": "English",
-  //   "youtubeId": "xF99vVf8yv0",
-  //   "summary": "The once unconditional friendship between police officers Vincke and Verstuyft hits a very rough patch when they come up against a series of gruesome murders. Complicating matters even further, a survivor of the killer drives a wedge between them when Verstuyft falls for her charms. Meanwhile, the serial killer has a new victim in sight...",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/xF99vVf8yv0/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/xF99vVf8yv0/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "Dear Etranger",
-  //   "year": 2017,
-  //   "categories": [
-  //     "Drama"
-  //   ],
-  //   "imdbId": "tt5797164",
-  //   "imdbRating": 7,
-  //   "runtime": 0,
-  //   "language": "English",
-  //   "youtubeId": "F-FPd35FqAY",
-  //   "summary": "A 40-year old man sees his life change when his wife gets pregnant. He already has a daughter from his first marriage whom he rarely sees and two step-daughters, from his wife's first marriage. The youngest of his step-daughters is looking forward to a baby brother or sister, but the oldest doesn't welcome the news and suddenly decides that she wants to live with her father. And as if that were not enough trouble, he is forced out of his good office job into an inferior position.",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/F-FPd35FqAY/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/F-FPd35FqAY/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "Before We Vanish",
-  //   "year": 2017,
-  //   "categories": [
-  //     "Drama",
-  //     "Sci-Fi"
-  //   ],
-  //   "imdbId": "tt5999530",
-  //   "imdbRating": 6,
-  //   "runtime": 129,
-  //   "language": "English",
-  //   "youtubeId": "fjlXE-u-3rc",
-  //   "summary": "Three aliens travel to Earth in preparation for a mass invasion, taking possession of human bodies.",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/fjlXE-u-3rc/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/fjlXE-u-3rc/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "Grace Jones: Bloodlight and Bami",
-  //   "year": 2017,
-  //   "categories": [
-  //     "Documentary"
-  //   ],
-  //   "imdbId": "tt6903636",
-  //   "imdbRating": 6.1,
-  //   "runtime": 115,
-  //   "language": "English",
-  //   "youtubeId": "HScUsiZLoCg",
-  //   "summary": "Larger than life, wild, scary and androgynous - Grace Jones plays all these parts. Yet here we also discover her as a lover, daughter, mother, sister and even grandmother, as she submits herself to our gaze and allows us to understand what constitutes her mask. The stage is where her most extreme embodiments are realised and her theatrical imagination lets loose: this is where the musical of her life is played out. The film includes Grace's unique performances singing iconic hits such as Slave To The Rhythm, Pull Up To The Bumper, as well as the more recent autobiographical tracks Williams' Bloods and Hurricane. These personal songs also link to Grace's family life, as the film takes us on a holiday road trip across Jamaica, where her family roots and the story of her traumatic childhood are uncovered. In Jamaican patois, 'Bloodlight' is the red light that illuminates when an artist is recording and 'Bami' means bread, the substance of daily life. Grace Jones: Bloodlight and Bami ...",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/HScUsiZLoCg/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/HScUsiZLoCg/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "All the Money in the World",
-  //   "year": 2017,
-  //   "categories": [
-  //     "Biography",
-  //     "Crime",
-  //     "Drama",
-  //     "Mystery",
-  //     "Thriller"
-  //   ],
-  //   "imdbId": "tt5294550",
-  //   "imdbRating": 6.9,
-  //   "runtime": 132,
-  //   "language": "English",
-  //   "youtubeId": "KXHrCBkIxQQ",
-  //   "summary": "Rome, 1973. Masked men kidnap a teenage boy named John Paul Getty III (Charlie Plummer). His grandfather, Jean Paul Getty (Christopher Plummer), is the richest human in the world, a billionaire oil magnate, but he's notoriously miserly. His favorite grandson's abduction is not reason enough for him to part with any of his fortune. All the Money in the World (2017) follows Gail, (Michelle Williams), Paul's devoted, strong-willed mother, who unlike Getty, has consistently chosen her children over his fortune. Her son's life in the balance with time running out, she attempts to sway Getty even as her son's mob captors become increasingly more determined, volatile and brutal. When Getty sends his enigmatic security man Fletcher Chace (Mark Wahlberg) to look after his interests, he and Gail become unlikely allies in this race against time that ultimately reveals the true and lasting value of love over money.",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/KXHrCBkIxQQ/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/KXHrCBkIxQQ/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "Chasing the Dragon",
-  //   "year": 2017,
-  //   "categories": [
-  //     "Action",
-  //     "Biography",
-  //     "Crime",
-  //     "History"
-  //   ],
-  //   "imdbId": "tt6015328",
-  //   "imdbRating": 6.9,
-  //   "runtime": 128,
-  //   "language": "English",
-  //   "youtubeId": "Adj5dtSKF8U",
-  //   "summary": "The year is 1963, an illegal immigrant named Ho (Donnie Yen) sneaks into British-ruled Hong Kong. Equipped with guts and combat skills, he plunges into the underground world getting into constant conflict with rivals. After many adversaries, the once good-natured man is physically crippled and turns into a monster more atrocious than all the most corrupted cops and ruthless drug dealers. Ho eventually emerges as the most powerful drug lord under the control of Chief Detective Sergeant, Lee Rock (Andy Lau). However, with the establishment of Independent Commission Against Corruption (ICAC) by the law enforcement in 1974, Rock is forced into premature retirement. But Ho still insists he would not be stopped as he determines to become the sole dictator of the drug empire.",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/Adj5dtSKF8U/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/Adj5dtSKF8U/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "I Kill Giants",
-  //   "year": 2017,
-  //   "categories": [
-  //     "Drama",
-  //     "Fantasy",
-  //     "Thriller"
-  //   ],
-  //   "imdbId": "tt4547194",
-  //   "imdbRating": 6.5,
-  //   "runtime": 106,
-  //   "language": "English",
-  //   "youtubeId": "ZBfLY-YL-5w",
-  //   "summary": "Twelve-year-old Barbara Thorson flees from reality, leaving in the imaginary world of fantasy and magic, where she fights with giants. Her family does not understand her, peers do not like her, and she irritates teachers. And only recently moved here Sofia, her same age, trying to make friends with her.",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/ZBfLY-YL-5w/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/ZBfLY-YL-5w/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "Roxanne Roxanne",
-  //   "year": 2017,
-  //   "categories": [
-  //     "Drama"
-  //   ],
-  //   "imdbId": "tt5796838",
-  //   "imdbRating": 6.1,
-  //   "runtime": 100,
-  //   "language": "English",
-  //   "youtubeId": "IKA8H_LolNM",
-  //   "summary": "In the early 1980s, the most feared battle MC in Queens, New York, was a fierce teenage girl with the weight of the world on her shoulders. At the age of 14, Lolita \"Roxanne Shanté\" Gooden was well on her way to becoming a hip-hop legend as she hustled to provide for her family while defending herself from the dangers of the streets of the Queensbridge Projects in NYC.",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/IKA8H_LolNM/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/IKA8H_LolNM/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "Film Stars Don't Die in Liverpool",
-  //   "year": 2017,
-  //   "categories": [
-  //     "Biography",
-  //     "Drama",
-  //     "Romance"
-  //   ],
-  //   "imdbId": "tt5711148",
-  //   "imdbRating": 6.8,
-  //   "runtime": 105,
-  //   "language": "English",
-  //   "youtubeId": "aCwt4kYWOHA",
-  //   "summary": "Real life proves just as dramatic off-screen as it does on it for these two actors, the aging Hollywood superstar Gloria Grahame and her younger lover, Peter Turner. As their mismatched romance waxes and wanes over time, events conspire to keep them in each other's lives even when it proves difficult and demanding. Ultimately, they find that they must each come to terms with whatever fate they face in the future whether they are together or apart.",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/aCwt4kYWOHA/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/aCwt4kYWOHA/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "Every Secret Thing",
-  //   "year": 2014,
-  //   "categories": [
-  //     "Crime",
-  //     "Drama",
-  //     "Mystery",
-  //     "Thriller"
-  //   ],
-  //   "imdbId": "tt1706598",
-  //   "imdbRating": 6.1,
-  //   "runtime": 93,
-  //   "language": "English",
-  //   "youtubeId": "6QT0zKjvRfE",
-  //   "summary": "A detective looks to unravel a mystery surrounding missing children and the prime suspects: two young women who, seven years ago, were put away for an infant's death.",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/6QT0zKjvRfE/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/6QT0zKjvRfE/maxresdefault.jpg"
-  // },
-  // {
-  //   "title": "Believe in Me",
-  //   "year": 2006,
-  //   "categories": [
-  //     "Drama",
-  //     "Sport"
-  //   ],
-  //   "imdbId": "tt0419491",
-  //   "imdbRating": 7.1,
-  //   "runtime": 0,
-  //   "language": "English",
-  //   "youtubeId": "IHatBd-2lLI",
-  //   "summary": "Girls? The thought of coaching them seems preposterous to Clay Driscoll (earnest newcomer Jeffrey Donovan), who travels to Middleton, Okla., in the 1960s prepared to coach the varsity boys' team. But that position is filled, so he's forced to coach the girls' team -- the Lady Cyclones. Faced with an under-performing crew of untrained players, the coach begins to treat the girls like boys. They run laps in a closed gym and practice shots and plays they've never tried before -- and eventually their \"old-fashioned grit\" leads them to a Cinderella season culminating with the state championships. Along their way, Driscoll and the girls overcome several obstacles, most of all, gaining a fan base. Meanwhile, big man in town Ellis Brawley (Bruce Dern) can't stand Driscoll and his newfangled idea of empowering female athletes. Of course, the Lady Cyclones are up to the task of proving Brawley wrong. Driven by their caring young coach, the girls determine to play as hard as the boys, even ...",
-  //   "smallThumbnail": "http://i3.ytimg.com/vi/IHatBd-2lLI/hqdefault.jpg",
-  //   "bigThumbnail": "http://i3.ytimg.com/vi/IHatBd-2lLI/maxresdefault.jpg"
-  // },
+  {
+    "title": "Wildling",
+    "year": 2018,
+    "categories": [
+      "Fantasy",
+      "Horror"
+    ],
+    "imdbId": "tt5085924",
+    "imdbRating": 6.1,
+    "runtime": 92,
+    "language": "English",
+    "youtubeId": "eyl1Wf90AgY",
+    "summary": "Anna spends her entire childhood under the care of a mysterious man she only knows as Daddy. He keeps her locked in an attic making her fear the Wildling, a child-eating monster that roams the outside. At age 16, Anna is freed by small-town sheriff Ellen Cooper who helps her start a new life as a normal teenager. But as Anna's body begins to blossom, her childhood nightmares return with a vengeance, leading to the conclusion of a terrifying secret.",
+    "smallThumbnail": "http://i3.ytimg.com/vi/eyl1Wf90AgY/hqdefault.jpg",
+    "bigThumbnail": "http://i3.ytimg.com/vi/eyl1Wf90AgY/maxresdefault.jpg"
+  },
+  {
+    "title": "The Humanity Bureau",
+    "year": 2017,
+    "categories": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "imdbId": "tt6143568",
+    "imdbRating": 6.1,
+    "runtime": 95,
+    "language": "English",
+    "youtubeId": "kUH8JGhRzPY",
+    "summary": "A dystopian thriller set in the year 2030 that sees the world in a permanent state of economic recession and facing serious environmental problems as a result of global warming.",
+    "smallThumbnail": "http://i3.ytimg.com/vi/kUH8JGhRzPY/hqdefault.jpg",
+    "bigThumbnail": "http://i3.ytimg.com/vi/kUH8JGhRzPY/maxresdefault.jpg"
+  },
+  {
+    "title": "Farewell Ferris Wheel",
+    "year": 2016,
+    "categories": [
+      "Documentary",
+      "Drama",
+      "News"
+    ],
+    "imdbId": "tt2349677",
+    "imdbRating": 7.4,
+    "runtime": 72,
+    "language": "English",
+    "youtubeId": "-K2m6AKNB-g",
+    "summary": "Farewell, Ferris Wheel examines the link between America's carnival industry and a small Mexican town that legally provides one third of the carnival's labor. However, increased regulations are compromising this longstanding connection, putting both the industry and its workers in jeopardy.",
+    "smallThumbnail": "http://i3.ytimg.com/vi/-K2m6AKNB-g/hqdefault.jpg",
+    "bigThumbnail": "http://i3.ytimg.com/vi/-K2m6AKNB-g/maxresdefault.jpg"
+  },
+  {
+    "title": "Don't Talk to Irene",
+    "year": 2017,
+    "categories": [
+      "Comedy"
+    ],
+    "imdbId": "tt5030452",
+    "imdbRating": 6.4,
+    "runtime": 90,
+    "language": "English",
+    "youtubeId": "lK48UxWuUho",
+    "summary": "Irene must endure 2 weeks of community service at a retirement home. Following her passion for cheerleading, she secretly signs up the senior residents to audition for a dance-themed reality show to prove that you don't need to be physically \"perfect\" to be perfectly AWESOME.",
+    "smallThumbnail": "http://i3.ytimg.com/vi/lK48UxWuUho/hqdefault.jpg",
+    "bigThumbnail": "http://i3.ytimg.com/vi/lK48UxWuUho/maxresdefault.jpg"
+  },
+  {
+    "title": "Blood Road",
+    "year": 2017,
+    "categories": [
+      "Documentary",
+      "History",
+      "Sport"
+    ],
+    "imdbId": "tt6900092",
+    "imdbRating": 6.9,
+    "runtime": 96,
+    "language": "English",
+    "youtubeId": "XCzVqiN950M",
+    "summary": "The mysteries surrounding her father's death in the Vietnam war lead ultra-endurance mountain biker Rebecca Rusch on an emotional journey as she pedals 1200 miles of the Ho Chi Minh trail.",
+    "smallThumbnail": "http://i3.ytimg.com/vi/XCzVqiN950M/hqdefault.jpg",
+    "bigThumbnail": "http://i3.ytimg.com/vi/XCzVqiN950M/maxresdefault.jpg"
+  },
+  {
+    "title": "Andre the Giant",
+    "year": 2018,
+    "categories": [
+      "Documentary"
+    ],
+    "imdbId": "tt6543420",
+    "imdbRating": 8.2,
+    "runtime": 85,
+    "language": "English",
+    "youtubeId": "f_jTeuajas0",
+    "summary": "A look at the life and career of professional wrestler André Roussimoff, who gained notoriety in the 1980s as Andre the Giant.",
+    "smallThumbnail": "http://i3.ytimg.com/vi/f_jTeuajas0/hqdefault.jpg",
+    "bigThumbnail": "http://i3.ytimg.com/vi/f_jTeuajas0/maxresdefault.jpg"
+  },
+  {
+    "title": "Dead on Arrival",
+    "year": 2017,
+    "categories": [
+      "Thriller"
+    ],
+    "imdbId": "tt5903088",
+    "imdbRating": 6.9,
+    "runtime": 97,
+    "language": "English",
+    "youtubeId": "8jJ-kC-rq0Q",
+    "summary": "A pharmaceutical sales rep visits a small town in Louisiana on business. He finds himself in a dark world of corruption and murder with 24 hours to live, running from the police, the mob and a sheriff that wants him dead.",
+    "smallThumbnail": "http://i3.ytimg.com/vi/8jJ-kC-rq0Q/hqdefault.jpg",
+    "bigThumbnail": "http://i3.ytimg.com/vi/8jJ-kC-rq0Q/maxresdefault.jpg"
+  },
+  {
+    "title": "Big Time",
+    "year": 2017,
+    "categories": [
+      "Documentary"
+    ],
+    "imdbId": "tt7630164",
+    "imdbRating": 6.2,
+    "runtime": 93,
+    "language": "English",
+    "youtubeId": "VK0mGdMKMW4",
+    "summary": "Bjarke Ingels started out as a young man dreaming of creating cartoons. Now, he has been named \"one of architecture's biggest innovators\" by The Wall Street Journal and one of The 100 Most Influential People on the planet by TIME Magazine. BIG TIME follows Bjarke during the course of 7 years (2009-2016), while he struggles to finish his biggest project so far. We are let into Bjarke's creative processes as well as the endless compromises that his work entails, and we are on the side when his personal life starts putting pressure on him, too. In addition to the recently opened architectural marvel VIA 57 West (625 West 57th Street), Bjarke Ingels' company Bjarke Ingels Group (BIG) was given the task of designing and building one of the skyscrapers which will replace Two World Trade Center in Manhattan. While Bjarke is creating these buildings, which will change the New York skyline, he is hit by health-related issues. The Film offers an intimate look into the innovative and ambitious ...",
+    "smallThumbnail": "http://i3.ytimg.com/vi/VK0mGdMKMW4/hqdefault.jpg",
+    "bigThumbnail": "http://i3.ytimg.com/vi/VK0mGdMKMW4/maxresdefault.jpg"
+  },
+  {
+    "title": "Adventures in Babysitting",
+    "year": 2016,
+    "categories": [
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "imdbId": "tt4456850",
+    "imdbRating": 6.1,
+    "runtime": 105,
+    "language": "English",
+    "youtubeId": "BbTTXUMVTTU",
+    "summary": "Two teen rival babysitters, Jenny and Lola, team up to hunt down one of their kids who accidentally runs away into the big city without any supervision.",
+    "smallThumbnail": "http://i3.ytimg.com/vi/BbTTXUMVTTU/hqdefault.jpg",
+    "bigThumbnail": "http://i3.ytimg.com/vi/BbTTXUMVTTU/maxresdefault.jpg"
+  },
+  {
+    "title": "Banana in a Nutshell",
+    "year": 2005,
+    "categories": [
+      "Documentary"
+    ],
+    "imdbId": "tt1537196",
+    "imdbRating": 6.6,
+    "runtime": 0,
+    "language": "English",
+    "youtubeId": "6vgD78Z6ut4",
+    "summary": "An intimate portrait of a Chinese-European couple in New Zealand, and their journey to get a blessing for marriage from traditional Chinese parents.",
+    "smallThumbnail": "http://i3.ytimg.com/vi/6vgD78Z6ut4/hqdefault.jpg",
+    "bigThumbnail": "http://i3.ytimg.com/vi/6vgD78Z6ut4/maxresdefault.jpg"
+  },
+
+  {
+    "title": "Ichi the Killer",
+    "year": 2001,
+    "categories": [
+      "Action",
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Horror"
+    ],
+    "imdbId": "tt0296042",
+    "imdbRating": 7.1,
+    "runtime": 129,
+    "language": "English",
+    "youtubeId": "iFUMtrAMknE",
+    "summary": "When a Yakuza boss named Anjo disappears with 300 million yen, his chief henchman, a sadomasochistic man named Kakihara, and the rest of his mob goons go looking for him. After capturing and torturing a rival Yakuza member looking for answers, they soon realize they have the wrong man and begin looking for the man named Jijii who tipped them off in the first place. Soon enough Kakihara and his men encounter Ichi, a psychotic, sexually-repressed young man with amazing martial arts abilities and blades that come out of his shoes. One by one Ichi takes out members of the Yakuza and all the while Kakihara intensifies his pursuit of Ichi and Ichi's controller Jijii. What will happen as the final showdown happens between the tortured and ultra-violent Ichi and the pain-craving Kakihara?",
+    "smallThumbnail": "http://i3.ytimg.com/vi/iFUMtrAMknE/hqdefault.jpg",
+    "bigThumbnail": "http://i3.ytimg.com/vi/iFUMtrAMknE/maxresdefault.jpg"
+  },
+  {
+    "title": "The Boy with the Topknot",
+    "year": 2017,
+    "categories": [
+      "Drama"
+    ],
+    "imdbId": "tt5757738",
+    "imdbRating": 6.7,
+    "runtime": 90,
+    "language": "English",
+    "youtubeId": "RLEnTBG7ncQ",
+    "summary": "One-off drama based on the critically acclaimed memoirs of British journalist Sathnam Sanghera. A touching, humorous and emotional rites-of-passage story.",
+    "smallThumbnail": "http://i3.ytimg.com/vi/RLEnTBG7ncQ/hqdefault.jpg",
+    "bigThumbnail": "http://i3.ytimg.com/vi/RLEnTBG7ncQ/maxresdefault.jpg"
+  },
+  {
+    "title": "Small Town Crime",
+    "year": 2017,
+    "categories": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "imdbId": "tt5751998",
+    "imdbRating": 6.6,
+    "runtime": 91,
+    "language": "English",
+    "youtubeId": "WakqZghIX_g",
+    "summary": "An alcoholic ex-cop (Hawkes) finds the body of a young woman and, through an act of self-redemption, becomes hell-bent on finding the killer but unwittingly puts his family in danger and gets caught up with several dark characters along the way.",
+    "smallThumbnail": "http://i3.ytimg.com/vi/WakqZghIX_g/hqdefault.jpg",
+    "bigThumbnail": "http://i3.ytimg.com/vi/WakqZghIX_g/maxresdefault.jpg"
+  },
+  {
+    "title": "Control",
+    "year": 2017,
+    "categories": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "imdbId": "tt1727497",
+    "imdbRating": 6.3,
+    "runtime": 127,
+    "language": "English",
+    "youtubeId": "xF99vVf8yv0",
+    "summary": "The once unconditional friendship between police officers Vincke and Verstuyft hits a very rough patch when they come up against a series of gruesome murders. Complicating matters even further, a survivor of the killer drives a wedge between them when Verstuyft falls for her charms. Meanwhile, the serial killer has a new victim in sight...",
+    "smallThumbnail": "http://i3.ytimg.com/vi/xF99vVf8yv0/hqdefault.jpg",
+    "bigThumbnail": "http://i3.ytimg.com/vi/xF99vVf8yv0/maxresdefault.jpg"
+  },
 ];
