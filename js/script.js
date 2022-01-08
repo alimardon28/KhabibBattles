@@ -19,7 +19,7 @@ for(let movie of movies){
 
     // SET ATRIBUT
     newItem.setAttribute('class', 'movies__item mb-3');
-    newCard.setAttribute('class', 'card movies__card bg-dark text-light');
+    newCard.setAttribute('class', 'card movies__card bg-dark text-light pb-4');
     newImg.setAttribute('class', 'card-img-top');
     newImg.setAttribute('src', movie.smallThumbnail);
     newCardBody.setAttribute('class', 'card-body');
@@ -32,7 +32,7 @@ for(let movie of movies){
     newLinkMovies.setAttribute('target' , '_blank');
 
 
-    newCardTitle.textContent = movie.title;
+    newCardTitle.textContent =movie.title;
     newCardDate.textContent = movie.year;
     newCardRating.textContent = movie.imdbRating;
     // newCardText.textContent = movie.summary;

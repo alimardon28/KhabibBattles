@@ -1,5 +1,6 @@
 body{
     background-color: #000;
+    margin-top: 80px;
 }
 
 .movies__list {
@@ -31,6 +32,36 @@ body{
     min-height: 290px !important;
 }
 
+.navbar-expand-lg{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    padding: 20px 0px;
+}
+
 .link{
     text-shadow: 0 0 20px #00ff, 0 0 20px #00FF;
+}
+
+.link-title{
+    text-shadow: 0 0 20px #000, 0 0 20px #fff;
+}
+
+.active{
+    text-shadow: 0 0 20px #fff, 0 0 20px #fFF ;
+}
+
+.card-title{
+    text-shadow: 0 0 20px #fff, 0 0 20px #fFF ;
+}
+
+.btn{
+    text-shadow: 0 0 20px #fff, 0 0 20px #fFF ;
+}
+
+.alert{
+    text-shadow: 0 0 20px #fff, 0 0 20px #fFF ;
 }
