@@ -489,4 +489,40 @@ let movies = [
     "smallThumbnail": "http://i3.ytimg.com/vi/xF99vVf8yv0/hqdefault.jpg",
     "bigThumbnail": "http://i3.ytimg.com/vi/xF99vVf8yv0/maxresdefault.jpg"
   },
+  {
+    "title": "Control",
+    "year": 2017,
+    "categories": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "imdbId": "tt1727497",
+    "imdbRating": 6.3,
+    "runtime": 127,
+    "language": "English",
+    "youtubeId": "xF99vVf8yv0",
+    "summary": "The once unconditional friendship between police officers Vincke and Verstuyft hits a very rough patch when they come up against a series of gruesome murders. Complicating matters even further, a survivor of the killer drives a wedge between them when Verstuyft falls for her charms. Meanwhile, the serial killer has a new victim in sight...",
+    "smallThumbnail": "http://i3.ytimg.com/vi/xF99vVf8yv0/hqdefault.jpg",
+    "bigThumbnail": "http://i3.ytimg.com/vi/xF99vVf8yv0/maxresdefault.jpg"
+  },
+  {
+    "title": "Control",
+    "year": 2017,
+    "categories": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "imdbId": "tt1727497",
+    "imdbRating": 6.3,
+    "runtime": 127,
+    "language": "English",
+    "youtubeId": "xF99vVf8yv0",
+    "summary": "The once unconditional friendship between police officers Vincke and Verstuyft hits a very rough patch when they come up against a series of gruesome murders. Complicating matters even further, a survivor of the killer drives a wedge between them when Verstuyft falls for her charms. Meanwhile, the serial killer has a new victim in sight...",
+    "smallThumbnail": "http://i3.ytimg.com/vi/xF99vVf8yv0/hqdefault.jpg",
+    "bigThumbnail": "http://i3.ytimg.com/vi/xF99vVf8yv0/maxresdefault.jpg"
+  },
 ];
