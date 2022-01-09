@@ -20,16 +20,20 @@ body{
     text-shadow: 0 0 20px #fff, 0 0 20px #fFF;
 }
 
+.row{
+    margin: 0 auto;
+}
+
+img{
+    width: 22rem;
+}
+
 .heading{
     text-shadow: 0px 0px 10px;
 }
 
 .search{
     text-shadow: 0px 0px 10px;
-}
-
-.card-img-top{
-    min-height: 290px !important;
 }
 
 .navbar-expand-lg{
@@ -39,13 +43,9 @@ body{
     left: 0;
     width: 100%;
     background: black;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
-.main__hero-top{
-    flex-direction: column;
-    justify-content: space-between;
-}
 
 .link{
     text-shadow: 0 0 20px #00ff, 0 0 20px #00FF;
@@ -69,8 +69,4 @@ body{
 
 .alert{
     text-shadow: 0 0 20px #fff, 0 0 20px #fFF ;
-}
-
-img{
-    max-width: 590px !important;
 }
