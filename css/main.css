@@ -18,6 +18,8 @@ body{
 .movies__card {
     width: 19rem;
     text-shadow: 0 0 20px #fff, 0 0 20px #fFF;
+    min-height: 450px;
+    max-height: 450px;
 }
 
 .row{
@@ -26,6 +28,8 @@ body{
 
 img{
     width: 22rem;
+    min-height: 200px;
+    max-height: 200px;
 }
 
 .heading{
